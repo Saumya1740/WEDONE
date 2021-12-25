@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home_page">
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/logo"
+        android:contentDescription="TODO" />
+
+    <ImageView
+        android:id="@+id/videodes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/categorybutton"
+        android:layout_marginLeft="330dp"
+        android:onClick="Opencategory"
+        android:layout_marginTop="30dp"/>
+
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/videodes">
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+                />
+</FrameLayout>
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="270dp"
+    app:srcCompat="@drawable/wedoneintro"/>
+
+    <TextView
+        android:id="@+id/des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="330dp"
+        android:textAlignment="center"
+        android:minHeight="15dp"
+        android:text="WedOne is India’s most loved Wedding Planning website! Check prices, verified reviews and book best wedding photographers, bridal makeup artists, wedding venues, decorators, and all other wedding vendors at guaranteed best prices. Get loads of latest wedding ideas and inspiration - bridal fashion, makeup and skincare tips, wedding planning tips, bachelorette and honeymoon ideas from India's largest wedding community and real weddings."
+        android:textColor="#291153"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#C8B59A"
+        android:text="Our Happy Customers"
+        android:onClick="Openslideshow"
+        android:layout_marginTop="650dp"
+        android:layout_marginLeft="100dp"/>
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="730dp"
+        app:srcCompat="@drawable/line" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/contacticon"
+        android:layout_marginTop="750dp"
+        android:layout_marginLeft="320dp"
+        android:onClick="Opencontact_us"
+        tools:ignore="VectorDrawableCompat" />
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="72dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="750dp"
+        android:onClick="Openprofile"
+        app:srcCompat="@drawable/accounticon"
+        tools:ignore="VectorDrawableCompat" />
+
+
+
+
+
+
+</RelativeLayout>

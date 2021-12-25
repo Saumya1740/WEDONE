@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Welcome_Page">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="487dp"
+        android:layout_height="874dp"
+        app:srcCompat="@drawable/welcomepage" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ringlogo"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="140dp"/>
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="248dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="160dp"
+        app:srcCompat="@drawable/wedone"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From choosing your wedding theme colors to nailing down your napkins, it’s all here."
+        android:textColor="#EAEDFB"
+        android:textSize="30dp"
+        android:layout_marginTop="400dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:gravity="center_horizontal" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="251dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="90dp"
+        android:onClick="Openlogin_activity"
+        app:srcCompat="@drawable/loginicon"
+        android:backgroundTint="#C8B59A"
+        tools:ignore="OnClick" />
+
+    />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="251dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/register"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="90dp"
+        android:onClick="Openregister"
+        android:backgroundTint="#C8B59A"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

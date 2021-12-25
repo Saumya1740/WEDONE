@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".attirepage">
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/logo"
+        android:contentDescription="TODO" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/line"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="105dp"/>
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/searchicon"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="30dp"/>
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/carticon"
+        android:layout_marginLeft="350dp"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Women's Attire"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="150dp"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/sari"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="50dp"/>
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/lenhga"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="225dp"/>
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/halfsaree"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="50dp"/>
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/bridalgown"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="225dp"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lehnga"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="245dp"
+        android:backgroundTint="#C8B59A"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saree"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="70dp"
+        android:onClick="Opensaree"
+        android:backgroundTint="#C8B59A"/>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="93dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="66dp"
+        android:layout_marginTop="580dp"
+        android:backgroundTint="#C8B59A"
+        android:text="Half Saree" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="103dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="245dp"
+        android:layout_marginTop="580dp"
+        android:backgroundTint="#C8B59A"
+        android:text="Bridal Gown" />
+
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rs. 9999"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="80dp"
+        />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rs. 8999"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="260dp"
+        />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rs. 7999"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="640dp"
+        android:layout_marginLeft="80dp"
+        />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rs. 10999"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="640dp"
+        android:layout_marginLeft="260dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="680dp"
+        app:srcCompat="@drawable/line" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/categorybutton"
+        android:layout_marginTop="690dp"
+        android:layout_marginLeft="280dp"
+        android:onClick="Opencategory"/>
+
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="72dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="690dp"
+        android:onClick="Openafterattirepage"
+        app:srcCompat="@drawable/backicon"
+        tools:ignore="VectorDrawableCompat" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+

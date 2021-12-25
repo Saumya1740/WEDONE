@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph39"
+    app:startDestination="@id/First39Fragment">
+
+    <fragment
+        android:id="@+id/First39Fragment"
+        android:name="com.example.wedone.First39Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first39">
+
+        <action
+            android:id="@+id/action_First39Fragment_to_Second39Fragment"
+            app:destination="@id/Second39Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second39Fragment"
+        android:name="com.example.wedone.Second39Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second39">
+
+        <action
+            android:id="@+id/action_Second39Fragment_to_First39Fragment"
+            app:destination="@id/First39Fragment" />
+    </fragment>
+</navigation>

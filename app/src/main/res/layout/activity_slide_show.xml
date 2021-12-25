@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".slide_show">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/iv_background"
+        android:onClick="Openhomepage"
+        android:scaleType="centerCrop"
+        android:src="@drawable/anim_slideshow"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="#FFFFFF"
+        android:text="Our Happy Couples"
+        android:textSize="40sp"
+        android:shadowColor="#000000"
+        android:shadowRadius="2"
+        android:textStyle="bold"/>
+
+<!--    <Button-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content" -->
+<!--        android:backgroundTint="#C8B59A"-->
+<!--        android:text="Back"-->
+<!--        -->
+
+
+
+
+</RelativeLayout>

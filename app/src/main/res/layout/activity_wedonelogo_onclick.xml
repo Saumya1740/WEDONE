@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".wedonelogo_onclick">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="357dp"
+        app:srcCompat="@drawable/finalbackground" />
+    <ImageView
+        android:id="@+id/imageView0"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="120dp"
+        app:srcCompat="@drawable/trustedwritten"/>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="210dp"
+        app:srcCompat="@drawable/findherebox"/>
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="225dp"
+        app:srcCompat="@drawable/findvendors"/>
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="221dp"
+        app:srcCompat="@drawable/searchicon2"/>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="300dp"
+        app:srcCompat="@drawable/rectangleno" />
+
+
+
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/wedone234"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="130dp"
+        />
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ellipsefinal"
+        android:onClick="Opencontact_us"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="45dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="115dp"
+        android:layout_height="57dp"
+        android:layout_marginLeft="43dp"
+        android:onClick="Opencontact_us"
+        android:layout_marginTop="465dp"
+        app:srcCompat="@drawable/callfinal" />
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ellipsefinal"
+        android:onClick="Openprofile"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="158dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="186dp"
+        android:layout_marginTop="463dp"
+        android:onClick="Openprofile"
+        app:layout_anchor="@+id/imageView17"
+        app:layout_anchorGravity="top|center"
+        app:srcCompat="@drawable/contactfinal" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Openattirepage"
+        app:srcCompat="@drawable/ellipsefinal"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="272dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="73dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="289dp"
+        android:layout_marginTop="458dp"
+        android:onClick="Openattirepage"
+        app:layout_anchor="@+id/imageView18"
+        app:layout_anchorGravity="top|center"
+        app:srcCompat="@drawable/couplefinal" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ellipsefinal"
+        android:onClick="Openfood"
+        android:layout_marginTop="578dp"
+        android:layout_marginLeft="45dp"
+        />
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/food"
+        android:onClick="Openfood"
+        android:layout_marginTop="595dp"
+        android:layout_marginLeft="78dp"
+        />
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ellipsefinal"
+        android:layout_marginTop="578dp"
+        android:layout_marginLeft="158dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="548dp"
+        app:layout_anchor="@+id/imageView11"
+        app:layout_anchorGravity="center"
+        app:srcCompat="@drawable/cartfinal" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ellipsefinal"
+        android:onClick="Opencategory"
+        android:layout_marginTop="578dp"
+        android:layout_marginLeft="272dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="62dp"
+        android:layout_height="66dp"
+        android:onClick="Opencategory"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="548dp"
+        app:layout_anchor="@+id/imageView12"
+        app:layout_anchorGravity="center"
+        app:srcCompat="@drawable/vendorfinal" />
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "577363244233",
+    "project_id": "wedone-10183",
+    "storage_bucket": "wedone-10183.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:577363244233:android:cbdf97bf7f0603d3654918",
+        "android_client_info": {
+          "package_name": "com.example.wedone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "577363244233-qg77ibkvstq0o4jnfvm95ngoja0ghic1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeKP3XXMteFByUSMsb-HjBa9wf0gd0qHI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "577363244233-qg77ibkvstq0o4jnfvm95ngoja0ghic1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
